@@ -14,7 +14,7 @@ int main(void)
 
 void ReadString(void)
 {
-	char sentence[20]; // declare array, max. 20 characters (could be changed)
+	char sentence[20]; // declare array, max. 20 characters (could be changed, see README)
 	int temp;
 	printf("Write a sentence (max. 20 characters):");
 	scanf("%[0-9 a-z A-Z]", &sentence); // input sentence
